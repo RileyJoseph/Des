@@ -1,35 +1,71 @@
-.btn-crazy{
-  background-color: black;
-  border: 2px;
-  border-color: yellow;
-  color: silver;
-}
-
-li{
-  font-style: bold;
-}
-
 #homeBtns{
   border: 3px solid black;
   border-width: 1px;
   color: black;
 }
 
+
+/* -------------- Travel Page --------------*/
+
 #mainImg{
   height: 650px;
 }
 
-#travelFont{
+#travelHead{
   font-family: 'Dancing Script', cursive;
   font-size: 70px;
   margin-left: 10px;
   text-align: center;
 }
+h2{
+  text-align: center;
+}
 
 #sideImgs{
   height: 216px;
+  max-width: 440px;
 }
 
-img#sideImgs:hover {
-  color: red;
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  margin: 0 1em 1em 0;
+  position: relative;
+}
+
+span{
+  font-family: 'Dancing Script', cursive;
+  font-size: 48px;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 216px;
+  position: absolute;
+  top: 0;
+  width: 438px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
 }

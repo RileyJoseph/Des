@@ -9,18 +9,27 @@ li{
   font-style: bold;
 }
 
-
-#designOne{
-  height: vh100;
-  background-color: black;
-}
-
 #homeBtns{
   border: 3px solid black;
   border-width: 1px;
   color: black;
 }
 
-#divider{
+#mainImg{
+  height: 650px;
+}
 
+#travelFont{
+  font-family: 'Dancing Script', cursive;
+  font-size: 70px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+#sideImgs{
+  height: 216px;
+}
+
+img#sideImgs:hover {
+  color: red;
 }

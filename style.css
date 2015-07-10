@@ -9,6 +9,18 @@ li{
   font-style: bold;
 }
 
-#bootstrap{
-  background color: red;
+
+#designOne{
+  height: vh100;
+  background-color: black;
+}
+
+#homeBtns{
+  border: 3px solid black;
+  border-width: 1px;
+  color: black;
+}
+
+#divider{
+
 }

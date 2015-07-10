@@ -7,6 +7,10 @@ designApp.config(['$routeProvider', '$locationProvider', function($routeProvider
       templateUrl: '/home.html',
       controller:  'HomeController'
     })
+    .when('/designOne',{
+      templateUrl: '/designOne.html',
+      controller: 'HomeController'
+    })
     .otherwise({
       templateUrl: '/404.html'
     })

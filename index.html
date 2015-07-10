@@ -10,13 +10,13 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <base href="/">
 </head>
-<body ng-app="RoutingApp">
+<body ng-app="DesignApp">
 
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Web Designs</a>
+      <a href='/' class="navbar-brand">Web Designs</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -32,11 +32,17 @@
           </ul>
         </li>
       </ul>
-
+      <ul class="nav navbar-nav navbar-right">
+        <a class="btn" href="#!/designOne">Design One</a>
+        <a class="btn" href="#!/designTwo">Design Two</a>
+        <a class="btn" href="#!/designThree">Design Three</a>
+        <a class="btn" href="#!/designFour">Design Four</a>
+      </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-{{2+2}}
+<div class="container">
+</div>
 
     <div ng-view></div>
 

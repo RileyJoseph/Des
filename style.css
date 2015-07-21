@@ -38,6 +38,12 @@ p{
   max-width: 440px;
 }
 
+#sideBtm{
+  border: 2px solid black;
+  height: 270px;
+  width: 440px;
+}
+
 ul.img-list {
   list-style-type: none;
   margin: 0;

@@ -11,8 +11,8 @@
   height: 650px;
 }
 
-#topLeft{
-  background-image: url("img/topleaves2.png");
+#tire{
+  background-image: url(img/tires1.jpg);
 }
 
 #travelHead{
@@ -49,9 +49,6 @@ p{
   font-size: 40px;
 }
 
-#section1{
-  background-color: #ffffff;
-  }
 
 .travelBtn1{
   background-color: rgba(0, 197, 255,.2);

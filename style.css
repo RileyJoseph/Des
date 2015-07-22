@@ -44,6 +44,19 @@ p{
   width: 440px;
 }
 
+#advertisement{
+  padding-top: 100px;
+  font-size: 40px;
+}
+
+#section1{
+  background-color: #ffffff;
+  }
+
+#section2{
+  background-color: #f0f0f0;
+}
+
 ul.img-list {
   list-style-type: none;
   margin: 0;

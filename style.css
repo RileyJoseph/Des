@@ -53,6 +53,11 @@ p{
   background-color: #ffffff;
   }
 
+.travelBtn1{
+  background-color: rgba(0, 197, 255,.2);
+  border-color: #ff7a78;
+}
+
 #section2{
   background-color: #f0f0f0;
 }

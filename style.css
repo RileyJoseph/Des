@@ -21,6 +21,14 @@
   margin-left: 10px;
   text-align: center;
 }
+#headImg {
+  background-image: url(/img/pangea.jpg);
+  background-size: cover;
+  height: 150px;
+}
+
+
+
 #travelH2{
   text-align: center;
   font-family: 'Dancing Script', cursive;
@@ -55,9 +63,10 @@ p{
   border-color: #ff7a78;
 }
 
-#section1.5{
-  background-color: black;
+div#section2 {
+  background-color: #f0f0f0;
 }
+
 
 ul.img-list {
   list-style-type: none;

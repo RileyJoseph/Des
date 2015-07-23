@@ -20,6 +20,7 @@
   font-size: 70px;
   margin-left: 10px;
   text-align: center;
+  padding-bottom: 80px;
 }
 #headImg {
   background-image: url(/img/pangea.jpg);
@@ -27,7 +28,17 @@
   height: 150px;
 }
 
+#cameraMan{
+  background-image: url(/img/camera.jpg);
+  background-size: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
 
+img#camera {
+
+}
 
 #travelH2{
   text-align: center;

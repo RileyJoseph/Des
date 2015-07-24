@@ -36,6 +36,12 @@
   height: 500px;
 }
 
+#cameraH1{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 70px;
+}
+
 img#camera {
 
 }

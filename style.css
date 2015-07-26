@@ -88,6 +88,10 @@ div#section2 {
   background-color: #f0f0f0;
 }
 
+#almostDivider{
+  background-color: black;
+  color: white;
+}
 
 ul.img-list {
   list-style-type: none;

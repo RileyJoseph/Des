@@ -140,10 +140,38 @@ ul.img-list li:hover span.text-content {
 
 /* -------------- Music Page --------------*/
 
+#musicBackground{
+  background-image: url(/img/musicBackground.jpg);
+  height: 100%;
+  width: 100%;
+}
+
+#musicNavbar{
+  background-color: black;
+  border: none;
+  color: white;
+}
+
 #musicNav{
   background-color: black;
+  opacity: .6;
   font-family: 'Slabo 27px', serif;
-  font-size: 30px;
+  font-color: white;
+  height: 150px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+a#musicTitle {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 60px;
+  padding-top: 60px;
+  color: white;
+}
+a.musicA {
+  font-family: 'Slabo 27px', serif;
+  color: white;
 }
 
 

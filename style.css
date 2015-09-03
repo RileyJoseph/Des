@@ -136,3 +136,14 @@ span.text-content span {
 ul.img-list li:hover span.text-content {
   opacity: 1;
 }
+
+
+/* -------------- Music Page --------------*/
+
+#musicNav{
+  background-color: black;
+  font-family: 'Slabo 27px', serif;
+  font-size: 30px;
+}
+
+

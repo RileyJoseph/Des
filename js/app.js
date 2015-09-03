@@ -11,6 +11,10 @@ designApp.config(['$routeProvider', '$locationProvider', function($routeProvider
       templateUrl: '/designOne.html',
       controller: 'HomeController'
     })
+    .when('/musicDesign',{
+      templateUrl: '/musicDesign.html',
+      controller: 'HomeController'
+    })
     .otherwise({
       templateUrl: '/404.html'
     })

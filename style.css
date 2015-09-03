@@ -142,8 +142,6 @@ ul.img-list li:hover span.text-content {
 
 #musicBackground{
   background-image: url(/img/musicBackground.jpg);
-  height: 100%;
-  width: 100%;
 }
 
 #musicNavbar{
@@ -174,4 +172,11 @@ a.musicA {
   color: white;
 }
 
-
+#musicAlbum{
+  display: block;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 10px;
+  border-color: black;
+}

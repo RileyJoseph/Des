@@ -161,11 +161,11 @@ ul.img-list li:hover span.text-content {
   margin-right: 100px;
 }
 
-a#musicTitle {
+#musicTitle {
   font-family: 'Architects Daughter', cursive;
   font-size: 60px;
-  padding-top: 60px;
   color: white;
+  text-align: center;
 }
 a.musicA {
   font-family: 'Slabo 27px', serif;
@@ -177,6 +177,10 @@ a.musicA {
   max-height: 600px;
   margin-left: auto;
   margin-right: auto;
-  border-width: 10px;
-  border-color: black;
 }
+
+#availableNow{
+  color: white;
+  text-align: center;
+}
+

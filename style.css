@@ -192,6 +192,11 @@ a.musicA {
   border-color: red;
   border-width: 5px;
 }
+#albumLink{
+  color: red;
+  font-weight: 400;
+  text-decoration: underline;
+}
 
 #availableNow{
   color: white;

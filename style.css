@@ -144,10 +144,31 @@ ul.img-list li:hover span.text-content {
   background-image: url(/img/musicBackground.jpg);
 }
 
+#musicMainBackground{
+  background-color: black;
+  background-position: center;
+  }
+
+
+#banner{
+/*  margin-top: 40px;*/
+  background-color: #696969;
+  height: 150px;
+  text-align: center;
+}
+#bannerText{
+  padding-top: 20px;
+  font-size: 80px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
 #musicNavbar{
   background-color: black;
-  border: none;
   color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: white;
 }
 
 #musicNav{

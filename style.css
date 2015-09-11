@@ -144,31 +144,15 @@ ul.img-list li:hover span.text-content {
   background-image: url(/img/musicBackground.jpg);
 }
 
+#musicMainBody{
+  background-color: #c1c1c1;
+  background-position: center;
+}
+
 #musicMainBackground{
-  background-color: black;
+  background-color: #c1c1c1;
   background-position: center;
   }
-
-
-#banner{
-/*  margin-top: 40px;*/
-  background-color: #696969;
-  height: 150px;
-  text-align: center;
-}
-#bannerText{
-  padding-top: 20px;
-  font-size: 86px;
-  font-family: 'Fjalla One', sans-serif;
-  color: white;
-}
-
-#bannerLinks{
-    padding-top: 20px;
-  font-size: 26px;
-  font-family: 'Fjalla One', sans-serif;
-  color: white;
-}
 
 #musicNavbar{
   background-color: black;
@@ -190,6 +174,28 @@ ul.img-list li:hover span.text-content {
   margin-right: 100px;
 }
 
+#banner{
+  margin-top: 60px;
+  background-color: black;
+  height: 180px;
+  text-align: center;
+}
+#bannerText{
+  padding-top: 20px;
+  font-size: 100px;
+  font-family: 'Fjalla One', sans-serif;
+  color: white;
+}
+
+#bannerLinks{
+  padding-top: 40px;
+  padding-right: 80px;
+  font-size: 20px;
+  font-family: 'Fjalla One', sans-serif;
+  color: white;
+}
+
+
 #sideBar{
   position: absolute;
   float: left;
@@ -199,8 +205,21 @@ ul.img-list li:hover span.text-content {
 
 #sideBar2{
   padding-top: 20px;
-  position: absolute;
-  float: left;
+  float: right;
+  padding-right: 120px;
+}
+
+i.fa {
+float: right;
+padding-left: 30px;
+}
+
+
+#musicContents{
+  /*SEE PICK UP GAMES*/
+  /*color: white;*/
+/*  background-color: rgba(252,252,252,.2);
+  margin: 15px, 15px, 15px, 15px;*/
 }
 
 #musicTitle {

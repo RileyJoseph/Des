@@ -175,7 +175,7 @@ ul.img-list li:hover span.text-content {
 }
 
 #banner{
-  margin-top: 60px;
+  margin-top: 50px;
   background-color: black;
   height: 180px;
   text-align: center;
@@ -243,7 +243,6 @@ a.musicA2 {
   max-height: 600px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 100px;
 }
 
 #album{
@@ -260,6 +259,13 @@ a.musicA2 {
 #availableNow{
   color: white;
   text-align: center;
+}
+
+#availableNow2{
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 100px;
 }
 
 .fa{

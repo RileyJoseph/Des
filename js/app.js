@@ -4,7 +4,7 @@ BabApp.config(['$routeProvider', '$locationProvider', function($routeProvider, $
 
   $routeProvider
     .when('/', {
-      templateUrl: '/index.html',
+      templateUrl: '/musicMain.html',
       controller:  'HomeController'
     })
     .when('/designOne',{
@@ -37,7 +37,7 @@ BabApp.controller('ProfileController', ['$scope', '$routeParams', function($scop
 
 BabApp.controller('HomeController', ['$scope','$location', function($scope,$location) {
 
-  console.log($location.path());
+  // console.log($location.path());
 
   // $scope.message = "home page"
 

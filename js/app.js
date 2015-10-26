@@ -1,10 +1,10 @@
-var designApp = angular.module('DesignApp', ['ngRoute']);
+var BabApp = angular.module('BabApp', ['ngRoute']);
 
-designApp.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+BabApp.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 
   $routeProvider
     .when('/', {
-      templateUrl: '/home.html',
+      templateUrl: '/index.html',
       controller:  'HomeController'
     })
     .when('/designOne',{
@@ -23,25 +23,25 @@ designApp.config(['$routeProvider', '$locationProvider', function($routeProvider
       templateUrl: '/404.html'
     })
 
-
     $locationProvider.hashPrefix('!')
 
 
 }]);
 
-designApp.controller('ProfileController', ['$scope', '$routeParams', function($scope, $routeParams) {
+BabApp.controller('ProfileController', ['$scope', '$routeParams', function($scope, $routeParams) {
 
   $scope.message = "home page"
   $scope.name = $routeParams.name
 }]);
 
 
-
-designApp.controller('HomeController', ['$scope','$location', function($scope,$location) {
+BabApp.controller('HomeController', ['$scope','$location', function($scope,$location) {
 
   console.log($location.path());
 
+  // $scope.message = "home page"
 
-  $scope.message = "home page"
+  $('.carousel').carousel();
+
 
 }]);

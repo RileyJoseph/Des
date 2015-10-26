@@ -1,0 +1,22 @@
+{
+  "name": "breadandbutterband",
+  "version": "1.0.0",
+  "description": "Bread and butter band site",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install --save passport"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RileyJoseph/Des.git"
+  },
+  "keywords": [
+    "freelance"
+  ],
+  "author": "Riley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RileyJoseph/Des/issues"
+  },
+  "homepage": "https://github.com/RileyJoseph/Des#readme"
+}
